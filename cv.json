@@ -17,18 +17,18 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "cacostam",
+        "url": "https://www.linkedin.com/in/cacostam/"
       },
       {
         "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "",
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "cacostam",
+        "url": "https://github.com/cacostama"
       }
     ]
   },
