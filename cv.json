@@ -6,7 +6,7 @@
     "email": "cacosta.ma@gmail.com",
     "phone": "+595984731535",
     "url": "",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "Cuento con muchos años de experiencia en el uso de la herramienta GeneXus en diversas versiones, así como en el manejo de diferentes bases de datos y entornos. Tengo experiencia en la gestión de servicios y APIs. Me considero una persona proactiva y con habilidades investigativas, siempre en busca de aprender nuevas tecnologías y aplicarlas para mejorar continuamente.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -39,7 +39,7 @@
       "url": "https://www.tu.com.py/",
       "startDate": "2023-07-18",
       "endDate": null,
-      "summary": "Analisis y Desarrollo de proyectos del Core, Optimización  y Automatización de Procesos. Cración y Diseños de Apis, Optimización y Automatización de Procesos",
+      "summary": "Análisis y Desarrollo de proyectos del Core, Optimización y Automatización de Procesos. Creación y Diseños de Apis, Optimización y Automatización de Procesos",
       "highlights": [
         ""
       ]
@@ -50,40 +50,40 @@
       "url": "https://www.horizonte.com.py/",
       "startDate": "2019-10-01",
       "endDate": "2023-07-17",
-      "summary": "Trabaje de Forma tercerizada en la Entidad Vision Banco. Conciliación Contables, Comparativos de Saldos, Alerta de Diferencias de Movimiento, SPI, CNB,tarjetas.",
+      "summary": "Trabaje de como tercerizado en la Entidad Vision Banco. Conciliación Contables, Comparativos de Saldos, Alerta de Diferencias de Movimiento, SPI, CNB,tarjetas.",
       "highlights": [
         ""
       ]
     },
     {
-      "name": "Hubii",  
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "TWIC – Team Work Informática y Consultoría S.R.L.",  
+      "position": "Analista/Desarrollador Junior",
+      "startDate": "2018-10-01",
+      "endDate": "2019-09-01",
+      "summary": "Trabaje de como tercerizado en la Entidad Sudameris Bank, Creación de reportes y consumos de Web Services Soap.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Consultores Informaticos S.R.L",  
+      "position": "Analista/Desarrollador Junior",
+      "startDate": "2013-08-01",
+      "endDate": "2018-10-01",
+      "summary": "Trabaje en diferentes proyectos de la empresa para diferentes clientes.",
       "highlights": [
         "Started the company"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
+
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
+    "institution": "Universidad Tecnológica Intercontinental",
+    "url": "https://www.utic.edu.py/v7/",
+    "area": "Análisis de Sistemas",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
+    "startDate": "2018-01-01",
+    "endDate": "∞",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"

@@ -1,0 +1,66 @@
+---
+import LightMode from "@/icons/LightMode.astro"
+import DarkMode from "@/icons/DarkMode.astro"
+---
+
+<button id="theme-toggle" aria-label="Cambiar tema">
+  <LightMode id="theme-toggle-light-icon" class="hidden" />
+  <DarkMode id="theme-toggle-dark-icon" class="hidden" />
+</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const lightIcon = document.getElementById('theme-toggle-light-icon');
+    const darkIcon = document.getElementById('theme-toggle-dark-icon');
+
+    if (!themeToggle || !lightIcon || !darkIcon) return;
+
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    if (currentTheme === 'dark') {
+      document.documentElement.classList.add('dark');
+      darkIcon.classList.remove('hidden');
+    } else {
+      lightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', function() {
+      document.documentElement.classList.toggle('dark');
+      const isDark = document.documentElement.classList.contains('dark');
+      lightIcon.classList.toggle('hidden', isDark);
+      darkIcon.classList.toggle('hidden', !isDark);
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+  });
+</script>
+
+<style>
+  #theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-left: auto;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #1a0dab;
+    --border-color: #e2e2e2;
+  }
+
+  .dark {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --link-color: #8ab4f8;
+    --border-color: #333333;
+  }
+</style>
